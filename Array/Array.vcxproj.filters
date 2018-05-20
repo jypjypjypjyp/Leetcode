@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="contains_duplicate.cpp">
+    <ClCompile Include="max_profit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="max_profit.cpp">
+    <ClCompile Include="min_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move_zeroes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plus_one.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="remove_duplicates.cpp">
@@ -27,31 +33,13 @@
     <ClCompile Include="rotate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="rotate_matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="single_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="intersect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="plus_one.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="move_zeroes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="two_sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="is_valid_sudoku.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="rotate_matrix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="min_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

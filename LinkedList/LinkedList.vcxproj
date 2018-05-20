@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{16002E31-BE10-4F20-B8BB-C466241329FB}</ProjectGuid>
-    <RootNamespace>reversestring</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>2</ProjectName>
+    <ProjectGuid>{DE81B49C-15AF-4616-834D-39EEE156D77B}</ProjectGuid>
+    <RootNamespace>LinkedList</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -71,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
@@ -79,7 +78,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
@@ -116,16 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="count_and_say.cpp" />
-    <ClCompile Include="first_uniq_char.cpp" />
-    <ClCompile Include="is_anagram.cpp" />
+    <ClCompile Include="delete_node.cpp" />
+    <ClCompile Include="has_cycle.cpp" />
     <ClCompile Include="is_palindrome.cpp" />
-    <ClCompile Include="longest_common_prefix.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="my_atoi.cpp" />
-    <ClCompile Include="reverse.cpp" />
-    <ClCompile Include="reverse_string.cpp" />
-    <ClCompile Include="strstr.cpp" />
+    <ClCompile Include="merge_two_lists.cpp" />
+    <ClCompile Include="remove_nth_from_end.cpp" />
+    <ClCompile Include="reverse_list.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />

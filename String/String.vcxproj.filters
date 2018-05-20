@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="reverse_string.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse.cpp">
+    <ClCompile Include="count_and_say.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="first_uniq_char.cpp">
@@ -33,16 +27,22 @@
     <ClCompile Include="is_palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="longest_common_prefix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="my_atoi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="strstr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="count_and_say.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="longest_common_prefix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

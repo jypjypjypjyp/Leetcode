@@ -1,0 +1,15 @@
+@startuml
+start
+    if(root==NULL)then
+        :return false;
+    else
+        while(nextlevelcount!=0)
+            while(currentlevel==0)
+                :get currentlevel--;
+                :put nextlevelcount+?;
+            endwhile
+            :output level;
+        endwhile
+    endif
+end
+@enduml

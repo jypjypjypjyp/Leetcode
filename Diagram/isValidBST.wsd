@@ -1,0 +1,14 @@
+@startuml
+    start
+    while(?)
+        :left=this(left);
+        :mid=root;
+        :right=this(right);
+        if(mid<left)then
+            :return false;
+        else
+            :return true;
+        endif
+    endwhile
+    end
+@enduml

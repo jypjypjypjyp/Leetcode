@@ -1,0 +1,8 @@
+@startuml
+start
+    :root=|=root;
+    if(!this(left,right)?)then
+        :return false;
+    endif
+end
+@enduml

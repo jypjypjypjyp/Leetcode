@@ -1,0 +1,9 @@
+@startuml
+start
+    :find mid node->root;
+    partition f(left) {
+        :find mid node -> root;
+    }
+    :f(right);
+end
+@enduml

@@ -10,4 +10,4 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-bool hasCycle(ListNode *head);
+TreeNode* sortedArrayToBST(vector<int>& nums);

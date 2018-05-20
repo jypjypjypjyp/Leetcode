@@ -1,0 +1,16 @@
+@startuml
+start
+    while(v1==null or v2==null)
+        if(v2[j]<v1[i])then
+            :v1 insert;
+            :j++;
+        else
+            :i++;
+        endif
+    endwhile
+    if(v1==null)then
+        :add rear v2;
+    endif
+    :return;
+end
+@enduml
