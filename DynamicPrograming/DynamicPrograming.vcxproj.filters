@@ -18,10 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="merge.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="firstBadVersion.cpp">
+    <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
