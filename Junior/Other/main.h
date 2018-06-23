@@ -1,4 +1,4 @@
 #pragma once
 #include <vector>
 using namespace std;
-int climbStairs(int n);
+bool isValid(string s);

@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F43837EC-04D4-4A4A-B142-32CB89A10273}</ProjectGuid>
-    <RootNamespace>DynamicPrograming</RootNamespace>
+    <ProjectGuid>{D51FD469-14D6-491C-9707-5BE9DC2EBFB9}</ProjectGuid>
+    <RootNamespace>Math</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="climbStairs.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
+    <ClCompile Include="countPrimes.cpp" />
+    <ClCompile Include="FizzBuzz.cpp" />
+    <ClCompile Include="isPowerofThree.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="romanToInt.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

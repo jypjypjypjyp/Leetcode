@@ -21,6 +21,15 @@
     <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="maxSubArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxProfit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
