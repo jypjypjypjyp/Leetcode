@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{15988797-1AEB-44E7-9147-21C9A7685A98}</ProjectGuid>
-    <RootNamespace>SortSearch</RootNamespace>
+    <ProjectGuid>{6CC2E514-3AE6-4B72-B5A0-A8A6A56C096C}</ProjectGuid>
+    <RootNamespace>Other</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,19 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AVL.h" />
-    <ClInclude Include="main.h" />
+    <ClCompile Include="evalRPN.cpp" />
+    <ClCompile Include="leastInterval.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="majorityElement.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="findKthLargest.cpp" />
-    <ClCompile Include="findPeakElement.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="merge.cpp" />
-    <ClCompile Include="search.cpp" />
-    <ClCompile Include="searchMatrix.cpp" />
-    <ClCompile Include="searchRange.cpp" />
-    <ClCompile Include="sortColors.cpp" />
-    <ClCompile Include="topKFrequent.cpp" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
