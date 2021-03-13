@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.projitems": "xml",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "memory_resource": "cpp",
+        "initializer_list": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "condition_variable": "cpp",
+        "*.txx": "cpp",
+        "ostream": "cpp"
+    }
+}
